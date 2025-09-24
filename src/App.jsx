@@ -96,13 +96,13 @@ function App() {
   }
 
   const completed = (
-    <span className="bg-lime-600/50 py-1 px-2 w-full flex justify-center items-center rounded-md text-[#5D8E17] font-bold text-xs">
+    <span className="bg-lime-600/50 py-1 px-2 w-full flex justify-center items-center rounded-md text-[#5D8E17] font-bold text-xs cursor-not-allowed">
       Completed
     </span>
   );
   const inProgress = InProgressTag();
   const na = (
-    <span className="bg-orange-500/50 py-1 w-full flex justify-center items-center rounded-md text-[#EE6C27] font-bold text-xs">
+    <span className="bg-orange-500/50 py-1 w-full flex justify-center items-center rounded-md text-[#EE6C27] font-bold text-xs cursor-not-allowed">
       NA
     </span>
   );
