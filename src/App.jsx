@@ -61,7 +61,7 @@ function App() {
     const [hovered, setHovered] = useState(false);
 
     return (
-      <div
+      <button
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
         className={`
@@ -91,7 +91,7 @@ function App() {
         >
           Resume <FaPlay />
         </span>
-      </div>
+      </button>
     );
   }
 
@@ -107,9 +107,9 @@ function App() {
     </span>
   );
   const start = (
-    <span className="bg-sky-800/50 py-1 w-full flex justify-center items-center rounded-md text-[#02548E] font-bold text-xs">
+    <button className="bg-sky-800/50 py-1 w-full flex justify-center items-center rounded-md text-[#02548E] font-bold text-xs cursor-pointer">
       Start
-    </span>
+    </button>
   );
 
   const tableData = [
