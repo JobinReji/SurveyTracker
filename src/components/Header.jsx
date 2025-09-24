@@ -4,7 +4,7 @@ import logo from "../assets/Impeerical_logo_nb.png";
 export default function Header() {
   return (
     <header className="flex justify-center w-full">
-      <div className="sm:w-[10%] w-[20%] px-[1.5%] py-[3%]">
+      <div className="sm:w-[10%] w-[20%] px-[1.5%] sm:py-0 py-[3%]">
         <img src={logo} alt="Logo" className="" />
       </div>
       <div className="sm:w-[90%] w-[80%] bg-[#364979] rounded-bl-3xl flex justify-center items-center">
