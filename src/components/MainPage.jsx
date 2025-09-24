@@ -78,7 +78,7 @@ export default function MainPage() {
         <span
           className={`absolute left-0 w-full flex justify-center items-center transition-transform duration-300`}
           style={{
-            transform: hovered ? "translateY(-120%)" : "translateY(0%)",
+            transform: hovered ? "translateY(-130%)" : "translateY(0%)",
           }}
         >
           In Progress
@@ -86,7 +86,7 @@ export default function MainPage() {
         <span
           className={`absolute left-0 w-full flex gap-1 justify-center items-center transition-transform duration-300`}
           style={{
-            transform: hovered ? "translateY(0%)" : "translateY(110%)",
+            transform: hovered ? "translateY(0%)" : "translateY(130%)",
           }}
         >
           Resume <FaPlay />
