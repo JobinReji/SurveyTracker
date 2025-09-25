@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-
+  const [error, setError] = useState(false);
   function handleSubmit(e) {
     e.preventDefault();
     console.log("Username:", username);
@@ -79,6 +79,14 @@ export default function Login() {
               >
                 LOGIN
               </button>
+              {error && (
+                <div
+                  className="w-[80%] rounded-md flex justify-center text-sm italic text-red-600
+                  transition-all duration-300 ease-in-out animate-slideDown"
+                >
+                  Username or Password is Invalid
+                </div>
+              )}
             </form>
           </div>
         </div>
